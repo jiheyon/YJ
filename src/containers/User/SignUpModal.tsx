@@ -188,7 +188,7 @@ function SignUpModal() {
                 onChange={e => {
                   pwCheckHandleChange(e.target.value);
                   validatepwCheck(e.target.value);
-                }}
+                }}//
               />
               {pwCheckInput.length >= 0 && (
                 <div className="mt-1 ml-1 text-[11.5px] text-blue font-hairline">
